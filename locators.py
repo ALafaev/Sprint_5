@@ -1,11 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-class URL:
-    HOME_PAGE_URL = 'https://stellarburgers.nomoreparties.site/' # Домашняя страница
-    LOGIN_PAGE_URL = 'https://stellarburgers.nomoreparties.site/login' # Страница авторизации
-    PROFILE_PAGE_URL = 'https://stellarburgers.nomoreparties.site/account/profile' # Страница "Профиль пользователя"
-
 class HeaderLocators:
     PERSONAL_ACCOUNT_BUTTON = (By.LINK_TEXT, 'Личный Кабинет')  # Кнопка "Личный кабинет"
     LOGO_HEADER = (By.XPATH, './/div[@class="AppHeader_header__logo__2D0X2"]/a')
